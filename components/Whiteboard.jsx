@@ -3,7 +3,7 @@ import { Canvas, PencilBrush, Circle, Rect, IText, classRegistry } from 'fabric'
 import io from 'socket.io-client';
 import { v4 as uuidv4 } from 'uuid'; // npm install uuid
 
-const SOCKET_SERVER_URL = 'http://localhost:4000';
+const SOCKET_SERVER_URL = 'https://whiteboard-backend-w7th.onrender.com';
 
 export default function Whiteboard({
     roomId,
