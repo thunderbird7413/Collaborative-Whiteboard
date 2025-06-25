@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useRouter } from 'next/router';
 import io from 'socket.io-client';
 
-const socket = io('http://localhost:4000');
+const socket = io('https://whiteboard-backend-w7th.onrender.com');
 
 export default function Home() {
   const [room, setRoom] = useState('');
