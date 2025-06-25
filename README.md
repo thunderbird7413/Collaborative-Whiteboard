@@ -1,40 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 🖍️ Collaborative Whiteboard
 
-## Getting Started
+A **real-time collaborative whiteboard application** that enables multiple users to draw, write, and interact simultaneously—replicating the experience of a physical whiteboard directly in the browser. Built with modern web technologies, the app supports drawing tools, real-time sync, export options, access control, and more.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **✏️ Drawing Tools**  
+  Pen, rectangle, circle, text tool, eraser, and color picker for flexible drawing.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- **⚡ Real-Time Collaboration**  
+  Live updates using WebSocket technology. All participants see changes instantly.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- **👥 Multi-User Sessions**  
+  Invite others to your whiteboard via a shareable link. Collaborate in real time.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+- **🔐 Access Control**  
+  Create public or private rooms. Set permissions: view-only or edit.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **📤 Export Options**  
+  Save your whiteboard as an image or PDF for future reference or sharing.
 
-## Learn More
+- **🧹 Canvas Management**  
+  Undo/Redo actions and a clear canvas button to manage drawings easily.
 
-To learn more about Next.js, take a look at the following resources:
+- **💬 (Future Enhancement)**  
+  Add voice chat or a comment/chat sidebar for richer collaboration.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Tech Stack
 
-## Deploy on Vercel
+### Frontend
+- **Next.js**
+- **Fabric.js** for advanced canvas manipulation
+- **Tailwind Css**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Backend
+- **Node.js**
+- **Socket.IO** for real-time communication
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+### Database
+- **MongoDB**
+
+### Hosting & Deployment
+- **Frontend**: Vercel 
+- **Backend**: Render
+- **Database**: MongoDB Atlas
+
+### Hosted URL -> https://collaborative-whiteboard-woad.vercel.app/
+
+
+
